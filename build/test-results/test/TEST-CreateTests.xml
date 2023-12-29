@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-29T01:08:04" hostname="DBC-001143.local" time="2.096">
+  <properties/>
+  <testcase name="cadastrarFuncionarioTest()" classname="CreateTests" time="2.096">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Response body doesn't match expectation.&#10;Expected: The content to match the given JSON schema.&#10;warning: the following keywords are unknown and will be ignored: [$id, examples]&#10;    level: &quot;warning&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;&quot;}&#10;    domain: &quot;syntax&quot;&#10;    ignored: [&quot;$id&quot;,&quot;examples&quot;]&#10;warning: the following keywords are unknown and will be ignored: [examples]&#10;    level: &quot;warning&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/createdAt&quot;}&#10;    domain: &quot;syntax&quot;&#10;    ignored: [&quot;examples&quot;]&#10;warning: the following keywords are unknown and will be ignored: [examples]&#10;    level: &quot;warning&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/id&quot;}&#10;    domain: &quot;syntax&quot;&#10;    ignored: [&quot;examples&quot;]&#10;warning: the following keywords are unknown and will be ignored: [examples]&#10;    level: &quot;warning&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/job&quot;}&#10;    domain: &quot;syntax&quot;&#10;    ignored: [&quot;examples&quot;]&#10;warning: the following keywords are unknown and will be ignored: [examples]&#10;    level: &quot;warning&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/name&quot;}&#10;    domain: &quot;syntax&quot;&#10;    ignored: [&quot;examples&quot;]&#10;error: object has missing required properties ([&quot;job&quot;,&quot;name&quot;])&#10;    level: &quot;error&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;&quot;}&#10;    instance: {&quot;pointer&quot;:&quot;&quot;}&#10;    domain: &quot;validation&quot;&#10;    keyword: &quot;required&quot;&#10;    required: [&quot;createdAt&quot;,&quot;id&quot;,&quot;job&quot;,&quot;name&quot;]&#10;    missing: [&quot;job&quot;,&quot;name&quot;]&#10;&#10;  Actual: {&quot;id&quot;:&quot;911&quot;,&quot;createdAt&quot;:&quot;2023-12-29T01:08:06.427Z&quot;}&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [$id, examples]
+    level: &quot;warning&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;syntax&quot;
+    ignored: [&quot;$id&quot;,&quot;examples&quot;]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: &quot;warning&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/createdAt&quot;}
+    domain: &quot;syntax&quot;
+    ignored: [&quot;examples&quot;]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: &quot;warning&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/id&quot;}
+    domain: &quot;syntax&quot;
+    ignored: [&quot;examples&quot;]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: &quot;warning&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/job&quot;}
+    domain: &quot;syntax&quot;
+    ignored: [&quot;examples&quot;]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: &quot;warning&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;/properties/name&quot;}
+    domain: &quot;syntax&quot;
+    ignored: [&quot;examples&quot;]
+error: object has missing required properties ([&quot;job&quot;,&quot;name&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/Users/ingrid.secundo/Documents/Projetos/Getnet/build/resources/test/contrato.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;createdAt&quot;,&quot;id&quot;,&quot;job&quot;,&quot;name&quot;]
+    missing: [&quot;job&quot;,&quot;name&quot;]
+
+  Actual: {&quot;id&quot;:&quot;911&quot;,&quot;createdAt&quot;:&quot;2023-12-29T01:08:06.427Z&quot;}
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at CreateTests.cadastrarFuncionarioTest(CreateTests.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{ "name": "Elvis",
+  "job": "Human Administration Supervisor"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
